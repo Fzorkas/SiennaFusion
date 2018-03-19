@@ -303,6 +303,24 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
+  - first: {x: -10, y: -2, z: 0}
+    second:
+      m_TileIndex: 66
+      m_TileSpriteIndex: 44
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -9, y: -2, z: 0}
+    second:
+      m_TileIndex: 67
+      m_TileSpriteIndex: 4294967295
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
   - first: {x: -7, y: -1, z: 0}
     second:
       m_TileIndex: 47
@@ -869,6 +887,10 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: d71171c1060bd5e4d84d26a597a5dbef, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: e99f9d926af69594984b512728f2fb24, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 1279b288f0bba5c4e941b8094ac2d3f0, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 89d6ef6981085e8439105fb474076171, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: 21300098, guid: 2b7173cec42684e41af02e8b683faba2, type: 3}
@@ -958,7 +980,7 @@ Tilemap:
     m_Data: {fileID: 21300018, guid: 2b7173cec42684e41af02e8b683faba2, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300032, guid: 2b7173cec42684e41af02e8b683faba2, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 21300034, guid: 2b7173cec42684e41af02e8b683faba2, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300048, guid: 2b7173cec42684e41af02e8b683faba2, type: 3}
@@ -1003,7 +1025,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 21300114, guid: 2b7173cec42684e41af02e8b683faba2, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 66
+  - m_RefCount: 68
     m_Data:
       e00: 1
       e01: 0
@@ -1022,7 +1044,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 66
+  - m_RefCount: 68
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 0
     m_Data: {r: 2.2e-44, g: 0, b: 0, a: NaN}
@@ -1200,3 +1222,7 @@ Tilemap:
     m_DirtyIndex: 0
   - serializedVersion: 1
     m_DirtyIndex: 0
+  - serializedVersion: 1
+    m_DirtyIndex: 6613
+  - serializedVersion: 1
+    m_DirtyIndex: 1012

@@ -25,6 +25,8 @@ public class TestPlayerv2 : MonoBehaviour
 
         transitionTime = 0.2f;
 
+        transform.position = new Vector2(Mathf.RoundToInt(transform.position.x - offset.x), Mathf.RoundToInt(transform.position.y-offset.y)) + offset;
+
         /*grass1 = GameObject.Instantiate<GameObject>(baseGrassObject);
         grass1.name = "Grass 1";
         grass2 = GameObject.Instantiate<GameObject>(baseGrassObject);
